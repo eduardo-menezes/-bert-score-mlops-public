@@ -15,7 +15,8 @@
 on:
   push:
     branches:
-    - ["master","main"]
+    - master
+    - main
 
 name: Build and Deploy to Cloud Run
 env:
