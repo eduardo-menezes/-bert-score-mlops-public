@@ -716,7 +716,7 @@ def main():
     #'bert-large-cased-whole-word-masking-finetuned-squad'
     # model = QA('bert-base-multilingual-cased', n_best_size) #bert-base-multilingual-cased para portugues, bert-large-uncased-whole-word-masking-finetuned-squad
     # model = QA('pierreguillou/bert-large-cased-squad-v1.1-portuguese', n_best_size) #bert-base-multilingual-cased para portugues, bert-large-uncased-whole-word-masking-finetuned-squad
-    def load_model
+    
     model = QA('pierreguillou/bert-base-cased-squad-v1.1-portuguese', n_best_size)
 
 
