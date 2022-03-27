@@ -653,7 +653,7 @@ def main():
             print(self.device)
             self.model.eval()
 
-
+        @st.cache
         def load_model(self,model_path: str,do_lower_case=False):
             #config = BertConfig.from_pretrained(model_path + "/bert_config.json")
             #tokenizer = BertTokenizer.from_pretrained(model_path, do_lower_case=do_lower_case)
@@ -716,6 +716,7 @@ def main():
     #'bert-large-cased-whole-word-masking-finetuned-squad'
     # model = QA('bert-base-multilingual-cased', n_best_size) #bert-base-multilingual-cased para portugues, bert-large-uncased-whole-word-masking-finetuned-squad
     # model = QA('pierreguillou/bert-large-cased-squad-v1.1-portuguese', n_best_size) #bert-base-multilingual-cased para portugues, bert-large-uncased-whole-word-masking-finetuned-squad
+    def load_model
     model = QA('pierreguillou/bert-base-cased-squad-v1.1-portuguese', n_best_size)
 
 
