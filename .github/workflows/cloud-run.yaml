@@ -21,7 +21,7 @@ on:
 name: Build and Deploy to Cloud Run
 env:
   PROJECT_ID: bert-score-mlops #${{ secrets.GCP_PROJECT }}
-  SERVICE: bert-score-mlops	
+  SERVICE: bert-score
   REGION: us-central1
 
 jobs:
